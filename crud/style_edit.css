@@ -1,0 +1,120 @@
+/* ========================================= */
+/* --- 1. STYLING HEADER & NAVIGASI --- */
+/* ========================================= */
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 20px 24px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1rem;
+    color: #aaaacc;
+}
+
+nav {
+    background-color: #16213e;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ccccdd;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* ========================================= */
+/* --- 2. STYLING KOTAK FORM CRUD --- */
+/* ========================================= */
+.crud-form {
+    width: 100%;
+    max-width: 650px;
+    margin: 24px auto;
+    padding: 24px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    
+    border-radius: 8px;
+    
+}
+
+/* Label tersusun rapi ke bawah */
+.crud-form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+/* Input teks memenuhi lebar kotak */
+.crud-form input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.crud-form input:focus {
+    outline: none;
+    border-color: #4a9eff;
+}
+
+/* ========================================= */
+/* --- 3. WADAH TOMBOL (SEJAJAR KE SAMPING) --- */
+/* ========================================= */
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.crud-form button {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #14d969;
+    color: #16213e;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.crud-form button:hover {
+    background-color: #16213e;
+    color: white;
+}
+
+.crud-form a {
+    display: inline-block;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.crud-form a:hover {
+    text-decoration: underline;
+}
